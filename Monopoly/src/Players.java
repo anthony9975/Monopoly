@@ -276,7 +276,7 @@ public class Players {
 			}
 		}
 		if (jailTime > -1)
-			output += "\nCurrently Serving Jail Time: " + "\n\tStill has " + (3 - jailTime) + " rounds left to serve";
+			output += "\nCurrently Serving Jail Time: \n\tStill has " + (3 - jailTime) + " rounds left to serve";
 		if (jailFree)
 			output += "\nHas a \"Get Out of Jail Free\" card";
 		return output + "\n";
