@@ -2,13 +2,14 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
+
 public class MonopolyClient {
 	
 	public static void main(String[] args) throws FileNotFoundException  {
 
 		//Setting Up Inputs
-		File inputFile = new File ("MonopolyData.txt");
-		Scanner fileInput = new Scanner(inputFile);
+		File inFile = new File("Monopoly\\MonopolyData.txt");
+		Scanner fileInput = new Scanner(inFile);
 		Scanner input = new Scanner(System.in);
 		
 		//Setting Up Board
