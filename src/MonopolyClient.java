@@ -8,7 +8,7 @@ public class MonopolyClient {
 	public static void main(String[] args) throws FileNotFoundException  {
 
 		//Setting Up Inputs
-		File inFile = new File("Monopoly\\MonopolyData.txt");
+		File inFile = new File("MonopolyData.txt");
 		Scanner fileInput = new Scanner(inFile);
 		Scanner input = new Scanner(System.in);
 		
