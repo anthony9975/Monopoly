@@ -9,7 +9,8 @@ public class Deck<T> {
 
     // Constructor
     public Deck (int numCards, T[] cards){
-        newCards(numCards, cards);
+        this.numCards = numCards;
+        this.cards = cards;
     }
 
     // Accessors
